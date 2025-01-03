@@ -16,3 +16,10 @@ GitHub contribution graph looking a little barren? Fear not—**git-fake-rs** is
    git clone https://github.com/your-username/git-fake-rs.git
    cd git-fake-rs
    ```
+
+2. Run the random committer:
+   ```bash
+   cargo run
+   ```
+
+3. Add it to `crontab` as a background task and enjoy looking busy!
