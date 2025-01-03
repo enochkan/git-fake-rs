@@ -1,4 +1,4 @@
-dummy_file_*.txt
+# dummy_file_*.txt
 target/*
 .vs_code
 .idea
