@@ -13,11 +13,11 @@ use std::process::Command;
 #[command(author, version, about, long_about = None)]
 struct Cli {
     /// Minimum number of commits (default: 1)
-    #[arg(short, long, default_value = "1")]
+    #[arg(short = 'm', long, default_value = "1")]
     min: u32,
 
     /// Maximum number of commits (default: 5)
-    #[arg(short, long, default_value = "5")]
+    #[arg(short = 'x', long, default_value = "5")]
     max: u32,
 }
 
