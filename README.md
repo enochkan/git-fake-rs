@@ -19,9 +19,7 @@ GitHub contribution graph looking a little barren? Fear not—**git-fake-rs** is
 
 2. Run the random committer:
    ```bash
-   cargo run
+   cargo run -- -min 3 --max 10
    ```
 
 3. Add it to `crontab` as a background task and enjoy looking busy!
-
-## Building
